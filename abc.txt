@@ -1,0 +1,9 @@
+Amazon Web Services (AWS) is the
+ world's most comprehensive and broadly adopted cloud that includes infrastructure
+ as a services (IaaS) and platform as a services (PaaS) offerings. 
+AWS SERVICE offer scalable solutions for compute, storage
+, databases, analytics, and mor
+Find all the right tools, documentation, and resources to get the most out of AWS.
+Find technical documentation for AWS SERVICE, SDKs and toolkits, use cases, scenarios, and tasks. Browse user guides, developer guides,
+ tutorials, and API references.
+

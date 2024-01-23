@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Hi this is punarvab b"
+ls -lt
+pwd
+df -h
+date
+uname -a
+
+
+********************************
+echo "Hi this is punu"
+echo "Hi mine name is $1"
+echo "Hi mine nick name is $2"

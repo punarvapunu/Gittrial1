@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "enter the age"
+read age
+
+if [ $age -lt 18 ]; then 
+echo "person  is minor"
+elif [ $age -gt 18 ] && [ $age -lt 60 ]; then
+echo "person is major"
+else
+echo "person  is senior citizen"
+fi

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+user_folder="home/ec2-user/ShellScripting/"
+
+
+size_threshold=100
+
+
+date_threshold=30
+
+cd "$user_folder" || exit 1
+
+find . -type f -size +"$size_threshold"M -mtime +"$date_threshold" -exec rm {} \;
+
+echo "Script execution completed."

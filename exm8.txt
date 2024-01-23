@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "enter the file size"
+read filesize
+
+find . -type f -size $filesize
+
+

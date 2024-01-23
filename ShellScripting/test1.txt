@@ -1,0 +1,20 @@
+#!/bin/bash
+
+a= `pwd`
+b=`ls -lrt`
+c= echo  "I am punarva"
+echo $a
+echo $b
+echo $c
+echo "enter the name"
+read name
+echo hello $name
+
+
+echo " the name of the file is : $0"
+
+
+echo "the total numbers of args passed to the string : $#"
+ echo " all arguments passed  to the string $*"
+  echo " procees running $$"
+  echo "Status of last excuted commands $?"
